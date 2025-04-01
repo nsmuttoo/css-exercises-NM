@@ -1,0 +1,19 @@
+.class1{
+background-color: pink;
+font-family: Verdana, "Dejavu Sans", sans-serif;
+
+}
+.class3{
+    font-size: 24px; 
+}
+#id2{
+    color: blue;
+    font-size: 36px;
+}
+
+#id4{
+    background-color: greenyellow;
+    font-size: 24px;
+    font-weight: 700;
+
+}
