@@ -15,6 +15,34 @@ body {
   justify-content: center;
 }
 
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.left, .center, .right{
+  flex: auto;
+  margin: 10px;
+}
+.buttonbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10px;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header{
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .modal {
   background: white;
   width: 480px;
@@ -60,10 +88,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  
 }
