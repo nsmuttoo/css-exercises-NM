@@ -11,6 +11,19 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+.container{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.one, .two, .three, .four{
+margin: auto;
+  flex: 1;
+text-align: center;
+
+
+}
 
 /* do not edit this footer */
 .footer {
